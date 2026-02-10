@@ -23,14 +23,16 @@ map.on('load', () => {
  });
 // 2. Visualized data sets
     map.addLayer({
-        'id': 'dataset1',
-        'type': 'circle',
-        'source': 'dataset1',
-        'paint': {
-            'circle-radius': 10,
-            'circle-color': '#75bfdf'
-        }
-    });
+  id: 'dataset1-layer',
+  type: 'circle',
+  source: 'dataset1',
+  paint: {
+    'circle-radius': 5,
+    'circle-color': '#ff4d4f',
+    'circle-stroke-width': 1,
+    'circle-stroke-color': '#ffffff'
+  }
+});
 
     map.addLayer({
         id: 'dataset2',
