@@ -4,3 +4,61 @@
     bottom: 0;
     width: 100%;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.site-header {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  left: 10px;
+  background: rgba(255,255,255,0.9);
+  padding: 10px 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 16px;
+}
+.site-header p {
+  margin: 4px 0 0;
+  font-size: 12px;
+}
+
+.map-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.legend {
+  position: absolute;
+  z-index: 2;
+  right: 12px;
+  bottom: 24px;
+  background: rgba(255,255,255,0.92);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+}
+.legend h4 {
+  margin: 0 0 6px;
+}
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.red { background: #ff4d4f; }
+.yellow { background: #ecc74f; }
