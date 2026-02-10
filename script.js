@@ -32,13 +32,13 @@ map.on('load', () => {
  });
 // 2. Visualized data sets
     map.addLayer({
-  id: 'dataset1-layer',
+  id: 'dataset1',
   type: 'circle',
   source: 'dataset1',
   paint: {
     'circle-radius': 5,
     'circle-color': '#ff4d4f',
-    'circle-stroke-width': 1,
+    'circle-stroke-width': 2,
     'circle-stroke-color': '#ffffff'
   }
 });
@@ -48,14 +48,16 @@ map.on('load', () => {
         type: 'circle',
         source: 'dataset2',
         paint: {
-            'circle-radius': 10,
-            'circle-color': '#ecc74f'
+            'circle-radius': 5,
+    'circle-color': '#6185bf',
+    'circle-stroke-width': 2,
+    'circle-stroke-color': '#ffffff'
         }
     });
 //3. Add Names
     // labels for dataset1
 map.addLayer({
-  id: 'dataset1-label',
+  id: 'dataset1',
   type: 'symbol',
   source: 'dataset1',
   layout: {
@@ -74,7 +76,7 @@ map.addLayer({
 
 // labels for dataset2
 map.addLayer({
-  id: 'dataset2-label',
+  id: 'dataset2',
   type: 'symbol',
   source: 'dataset2',
   layout: {
