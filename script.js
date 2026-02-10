@@ -52,5 +52,43 @@ map.on('load', () => {
             'circle-color': '#ecc74f'
         }
     });
+//3. Add Names
+    // labels for dataset1
+map.addLayer({
+  id: 'dataset1-label',
+  type: 'symbol',
+  source: 'dataset1',
+  layout: {
+    'text-field': ['get', 'Name'],
+    'text-size': 12,
+    'text-offset': [0, 1.1],
+    'text-anchor': 'top',
+    'text-allow-overlap': false
+  },
+  paint: {
+    'text-color': '#b22222',
+    'text-halo-color': '#ffffff',
+    'text-halo-width': 1.2
+  }
+});
+
+// labels for dataset2
+map.addLayer({
+  id: 'dataset2-label',
+  type: 'symbol',
+  source: 'dataset2',
+  layout: {
+    'text-field': ['get', 'Name'],
+    'text-size': 12,
+    'text-offset': [0, 1.1],
+    'text-anchor': 'top',
+    'text-allow-overlap': false
+  },
+  paint: {
+    'text-color': '#7a5a00',
+    'text-halo-color': '#ffffff',
+    'text-halo-width': 1.2
+  }
+});
 
 });
