@@ -3,8 +3,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibGdzbWl0aCIsImEiOiJja29uNGs1cmYwYnN2MnBwMzM2c
 const map = new mapboxgl.Map({
     container: 'my-map', // map container ID
     style: 'mapbox://styles/serenaxie/cmlgr6u5n002001qw2abl8rke', //style URL
-    center: [	-79.3923, 43.6647], // starting position [lng, lat] Queens Park
-    zoom: 12, // starting zoom
+    center: [-79.39, 43.66], // starting position [lng, lat] Queens Park
+    zoom: 10, // starting zoom
 });
 
 //Listen for load event, once map finishes loading, trigger the following functions
