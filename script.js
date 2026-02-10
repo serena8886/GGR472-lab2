@@ -21,7 +21,7 @@ map.on('load', () => {
         type: 'geojson',
         data: 'https://github.com/serena8886/GGR472-lab2/blob/main/dataset2.geojson'
  });
-// 2. VISUALIZE DATA LAYERS
+// 2. Visualized data sets
     map.addLayer({
         'id': 'dataset1',
         'type': 'circle',
