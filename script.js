@@ -13,6 +13,14 @@ const map = new mapboxgl.Map({
 
 //Listen for load event, once map finishes loading, trigger the following functions
 map.on('load', () => {
+    map.easeTo({
+    center: [-79.39, 43.66],
+    zoom: 14,
+    pitch: 60,
+    bearing: -35,
+    duration: 2500,
+    essential: true
+  });
 
 // 1. Add data sets
     // add geojson data set 1
