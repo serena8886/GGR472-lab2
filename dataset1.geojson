@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jacobs & Co. Steakhouse"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.37807455865483,
+                    43.64423797111306
+                ],
+                "type": "Point"
+            },
+            "id": 0
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Linny's"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.42056354623487,
+                    43.64818626632504
+                ],
+                "type": "Point"
+            },
+            "id": 1
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Beso by Patria"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39649119887109,
+                    43.645655447221515
+                ],
+                "type": "Point"
+            },
+            "id": 2
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Animal Steakhouse"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39642606371947,
+                    43.644179356149465
+                ],
+                "type": "Point"
+            },
+            "id": 3
+        }
+    ]
+}

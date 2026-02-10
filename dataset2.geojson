@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hockey Hall of Fame"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.37717346532581,
+          43.64697062708973
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Massey Hall"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.37885638458748,
+          43.65411125811136
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Rogers Centre"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.38906143907086,
+          43.641655148939265
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Factory Theatre"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.40274300957468,
+          43.645509986484655
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIFF Lightbox"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.39051933416786,
+          43.64676776645351
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Queens Park"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.39229335993723,
+          43.664683520068905
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    }
+  ]
+}
