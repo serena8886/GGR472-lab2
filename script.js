@@ -19,7 +19,7 @@ map.on('load', () => {
     // add geojson data set 2
  map.addSource('dataset2', {
         type: 'geojson',
-        data: 'https://raw.githubusercontent.com/serena8886/GGR472-lab2/main/dataset1.geojson'
+        data: 'https://raw.githubusercontent.com/serena8886/GGR472-lab2/main/dataset2.geojson'
  });
 // 2. Visualized data sets
     map.addLayer({
