@@ -9,7 +9,6 @@ const map = new mapboxgl.Map({
 
 //Listen for load event, once map finishes loading, trigger the following functions
 map.on('load', () => {
-    });
 
 // 1. Add data sets
     // add geojson data set 1
@@ -18,7 +17,7 @@ map.on('load', () => {
         data: 'https://github.com/serena8886/GGR472-lab2/blob/main/dataset1.geojson'
  });
     // add geojson data set 2
- map.addSource('dataset1', {
+ map.addSource('dataset2', {
         type: 'geojson',
         data: 'https://github.com/serena8886/GGR472-lab2/blob/main/dataset2.geojson'
  });
@@ -34,11 +33,13 @@ map.on('load', () => {
     });
 
     map.addLayer({
-        id: 'buildings-pnt',
+        id: 'dataset2',
         type: 'circle',
-        source: 'uoft-buildings-data',
+        source: 'dataset2',
         paint: {
             'circle-radius': 10,
             'circle-color': '#ecc74f'
         }
     });
+
+});
