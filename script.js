@@ -4,10 +4,7 @@ const map = new mapboxgl.Map({
     container: 'my-map', // map container ID
     style: 'mapbox://styles/serenaxie/cmlgr6u5n002001qw2abl8rke', //style URL
     center: [-79.39, 43.66],
-    zoom: 14,
-    pitch: 55,
-    bearing: -10,
-    maxZoom: 18
+
 });
 
 
