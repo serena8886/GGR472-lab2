@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibGdzbWl0aCIsImEiOiJja29uNGs1cmYwYnN2MnBwMzM2c
 const map = new mapboxgl.Map({
     container: 'my-map', // map container ID
     style: 'mapbox://styles/serenaxie/cmlgr6u5n002001qw2abl8rke', //style URL
-    ccenter: [-79.39, 43.66],
+    center: [-79.39, 43.66],
     zoom: 14,
     pitch: 55,
     bearing: -10,
