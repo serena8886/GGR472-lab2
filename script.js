@@ -14,18 +14,18 @@ map.on('load', () => {
     // add geojson data set 1
  map.addSource('dataset1', {
         type: 'geojson',
-        data: 'https://github.com/serena8886/GGR472-lab2/blob/main/dataset1.geojson'
+        data: 'https://raw.githubusercontent.com/serena8886/GGR472-lab2/main/dataset1.geojson'
  });
     // add geojson data set 2
  map.addSource('dataset2', {
         type: 'geojson',
-        data: 'https://github.com/serena8886/GGR472-lab2/blob/main/dataset2.geojson'
+        data: 'https://raw.githubusercontent.com/serena8886/GGR472-lab2/main/dataset1.geojson'
  });
 // 2. Visualized data sets
     map.addLayer({
         'id': 'dataset1',
         'type': 'circle',
-        'source': 'uoft-ss-data',
+        'source': 'dataset1',
         'paint': {
             'circle-radius': 10,
             'circle-color': '#75bfdf'
